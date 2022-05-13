@@ -1,0 +1,215 @@
+
+
+* {
+margin: 0;
+padding: 0;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (banner.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner.jpg");
+
+ background-size: c;
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+.menu{
+
+text-align: right;
+padding: 10px;
+
+
+}
+
+a{
+
+	text-decoration: none;
+	color: white;
+}
+
+
+.heading1{
+	text-align: center;
+	padding: 10px;
+
+
+}
+
+.heading2{
+
+	text-align: center;
+		padding: 10px;
+
+}
+
+.heading3{
+
+	text-align: center;
+		padding: 10px;
+
+}
+
+.listIntro{
+
+	text-align: center;
+	padding: 10px;
+
+}
+
+
+/*readless*/
+
+#more {display: none;}
+#more2 {display: none;}
+
+
+
+
+/*buttons*/
+
+  #myBtn {
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+
+  #myBtn2 {
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+
+
+.list{
+
+	padding: 10px;
+}
+
+.para1{
+
+
+padding: 10px;
+line-height: 1.6;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.para2{
+
+padding: 10px;
+line-height: 1.6;
+}
+
+								/*cards*/
+.card {
+	display: flex;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 10px;
+}
+
+.card2 {
+	display: flex;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container2 {
+  padding: 10px;
+}
+
+
+
+.card3 {
+	display: flex;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container3 {
+  padding: 10px;
+}
+
+.card4 {
+	display: flex;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card4:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container4 {
+  padding: 10px;
+}
